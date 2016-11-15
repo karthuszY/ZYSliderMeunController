@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A2EC1041DD3153800F369D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2EC1031DD3153800F369D5 /* main.m */; };
+		1A2EC1071DD3153800F369D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2EC1061DD3153800F369D5 /* AppDelegate.m */; };
+		1A2EC10D1DD3153900F369D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A2EC10B1DD3153900F369D5 /* Main.storyboard */; };
+		1A2EC10F1DD3153900F369D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A2EC10E1DD3153900F369D5 /* Assets.xcassets */; };
+		1A2EC1121DD3153900F369D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A2EC1101DD3153900F369D5 /* LaunchScreen.storyboard */; };
+		1A2EC11E1DD40F9200F369D5 /* ZYLeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2EC11D1DD40F9200F369D5 /* ZYLeftViewController.m */; };
+		1A2EC1211DD4100100F369D5 /* ZYMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2EC1201DD4100100F369D5 /* ZYMainViewController.m */; };
+		1A2EC1241DD59AC300F369D5 /* ZYRightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2EC1231DD59AC300F369D5 /* ZYRightViewController.m */; };
+		1AF9B5E41DD9AE2100CD4230 /* ZYSliderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF9B5E31DD9AE2100CD4230 /* ZYSliderViewController.m */; };
+		1AF9B5E71DD9AE5400CD4230 /* UIViewController+ZYSliderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF9B5E61DD9AE5400CD4230 /* UIViewController+ZYSliderViewController.m */; };
+		1AF9B5EA1DD9B38A00CD4230 /* ZYTempViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF9B5E91DD9B38A00CD4230 /* ZYTempViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A2EC0FF1DD3153800F369D5 /* ZYSliderViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYSliderViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A2EC1031DD3153800F369D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1A2EC1051DD3153800F369D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1A2EC1061DD3153800F369D5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1A2EC10C1DD3153900F369D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1A2EC10E1DD3153900F369D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A2EC1111DD3153900F369D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1A2EC1131DD3153900F369D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A2EC11C1DD40F9200F369D5 /* ZYLeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYLeftViewController.h; sourceTree = "<group>"; };
+		1A2EC11D1DD40F9200F369D5 /* ZYLeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYLeftViewController.m; sourceTree = "<group>"; };
+		1A2EC11F1DD4100100F369D5 /* ZYMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYMainViewController.h; sourceTree = "<group>"; };
+		1A2EC1201DD4100100F369D5 /* ZYMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYMainViewController.m; sourceTree = "<group>"; };
+		1A2EC1221DD59AC300F369D5 /* ZYRightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYRightViewController.h; sourceTree = "<group>"; };
+		1A2EC1231DD59AC300F369D5 /* ZYRightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYRightViewController.m; sourceTree = "<group>"; };
+		1AF9B5E21DD9AE2100CD4230 /* ZYSliderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYSliderViewController.h; sourceTree = "<group>"; };
+		1AF9B5E31DD9AE2100CD4230 /* ZYSliderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYSliderViewController.m; sourceTree = "<group>"; };
+		1AF9B5E51DD9AE5400CD4230 /* UIViewController+ZYSliderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ZYSliderViewController.h"; sourceTree = "<group>"; };
+		1AF9B5E61DD9AE5400CD4230 /* UIViewController+ZYSliderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ZYSliderViewController.m"; sourceTree = "<group>"; };
+		1AF9B5E81DD9B38A00CD4230 /* ZYTempViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYTempViewController.h; sourceTree = "<group>"; };
+		1AF9B5E91DD9B38A00CD4230 /* ZYTempViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTempViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A2EC0FC1DD3153800F369D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A2EC0F61DD3153800F369D5 = {
+			isa = PBXGroup;
+			children = (
+				1A2EC1011DD3153800F369D5 /* ZYSliderViewController */,
+				1A2EC1001DD3153800F369D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A2EC1001DD3153800F369D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A2EC0FF1DD3153800F369D5 /* ZYSliderViewController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A2EC1011DD3153800F369D5 /* ZYSliderViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1AF9B5E11DD9AE2100CD4230 /* ZYSliderViewController */,
+				1A2EC1051DD3153800F369D5 /* AppDelegate.h */,
+				1A2EC1061DD3153800F369D5 /* AppDelegate.m */,
+				1AF9B5E81DD9B38A00CD4230 /* ZYTempViewController.h */,
+				1AF9B5E91DD9B38A00CD4230 /* ZYTempViewController.m */,
+				1A2EC11F1DD4100100F369D5 /* ZYMainViewController.h */,
+				1A2EC1201DD4100100F369D5 /* ZYMainViewController.m */,
+				1A2EC11C1DD40F9200F369D5 /* ZYLeftViewController.h */,
+				1A2EC11D1DD40F9200F369D5 /* ZYLeftViewController.m */,
+				1A2EC1221DD59AC300F369D5 /* ZYRightViewController.h */,
+				1A2EC1231DD59AC300F369D5 /* ZYRightViewController.m */,
+				1A2EC10B1DD3153900F369D5 /* Main.storyboard */,
+				1A2EC10E1DD3153900F369D5 /* Assets.xcassets */,
+				1A2EC1101DD3153900F369D5 /* LaunchScreen.storyboard */,
+				1A2EC1131DD3153900F369D5 /* Info.plist */,
+				1A2EC1021DD3153800F369D5 /* Supporting Files */,
+			);
+			path = ZYSliderViewController;
+			sourceTree = "<group>";
+		};
+		1A2EC1021DD3153800F369D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A2EC1031DD3153800F369D5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1AF9B5E11DD9AE2100CD4230 /* ZYSliderViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1AF9B5E21DD9AE2100CD4230 /* ZYSliderViewController.h */,
+				1AF9B5E31DD9AE2100CD4230 /* ZYSliderViewController.m */,
+				1AF9B5E51DD9AE5400CD4230 /* UIViewController+ZYSliderViewController.h */,
+				1AF9B5E61DD9AE5400CD4230 /* UIViewController+ZYSliderViewController.m */,
+			);
+			path = ZYSliderViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A2EC0FE1DD3153800F369D5 /* ZYSliderViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A2EC1161DD3153900F369D5 /* Build configuration list for PBXNativeTarget "ZYSliderViewController" */;
+			buildPhases = (
+				1A2EC0FB1DD3153800F369D5 /* Sources */,
+				1A2EC0FC1DD3153800F369D5 /* Frameworks */,
+				1A2EC0FD1DD3153800F369D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZYSliderViewController;
+			productName = ZYSliderViewController;
+			productReference = 1A2EC0FF1DD3153800F369D5 /* ZYSliderViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A2EC0F71DD3153800F369D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZY;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = zY;
+				TargetAttributes = {
+					1A2EC0FE1DD3153800F369D5 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = NDF3RG6KW7;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1A2EC0FA1DD3153800F369D5 /* Build configuration list for PBXProject "ZYSliderViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A2EC0F61DD3153800F369D5;
+			productRefGroup = 1A2EC1001DD3153800F369D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A2EC0FE1DD3153800F369D5 /* ZYSliderViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A2EC0FD1DD3153800F369D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A2EC1121DD3153900F369D5 /* LaunchScreen.storyboard in Resources */,
+				1A2EC10F1DD3153900F369D5 /* Assets.xcassets in Resources */,
+				1A2EC10D1DD3153900F369D5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A2EC0FB1DD3153800F369D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A2EC1071DD3153800F369D5 /* AppDelegate.m in Sources */,
+				1AF9B5EA1DD9B38A00CD4230 /* ZYTempViewController.m in Sources */,
+				1A2EC1241DD59AC300F369D5 /* ZYRightViewController.m in Sources */,
+				1A2EC11E1DD40F9200F369D5 /* ZYLeftViewController.m in Sources */,
+				1AF9B5E71DD9AE5400CD4230 /* UIViewController+ZYSliderViewController.m in Sources */,
+				1A2EC1211DD4100100F369D5 /* ZYMainViewController.m in Sources */,
+				1AF9B5E41DD9AE2100CD4230 /* ZYSliderViewController.m in Sources */,
+				1A2EC1041DD3153800F369D5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1A2EC10B1DD3153900F369D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A2EC10C1DD3153900F369D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1A2EC1101DD3153900F369D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A2EC1111DD3153900F369D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A2EC1141DD3153900F369D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1A2EC1151DD3153900F369D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A2EC1171DD3153900F369D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NDF3RG6KW7;
+				INFOPLIST_FILE = ZYSliderViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = karthus.ZYSliderViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1A2EC1181DD3153900F369D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NDF3RG6KW7;
+				INFOPLIST_FILE = ZYSliderViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = karthus.ZYSliderViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A2EC0FA1DD3153800F369D5 /* Build configuration list for PBXProject "ZYSliderViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A2EC1141DD3153900F369D5 /* Debug */,
+				1A2EC1151DD3153900F369D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A2EC1161DD3153900F369D5 /* Build configuration list for PBXNativeTarget "ZYSliderViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A2EC1171DD3153900F369D5 /* Debug */,
+				1A2EC1181DD3153900F369D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A2EC0F71DD3153800F369D5 /* Project object */;
+}
